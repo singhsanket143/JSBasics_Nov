@@ -3,9 +3,9 @@ function pattern(n) {
     // write a loop to repeat a task for n rows
     for(let row = 1; row <= n; row += 1) {
         // task
-        // the task is to concatenate "*" row no of times
+        // the task is to concatenate "*" n - row + 1 times
         let str = "";
-        for(let col = 1; col <= row; col += 1) { // only change is the limit of loop
+        for(let col = 1; col <= n - row + 1; col += 1) { // only change is the limit of loop
             str += "*";
         }
         console.log(str);
@@ -13,13 +13,3 @@ function pattern(n) {
 }
 
 pattern(9);
-// pattern(6);
-// pattern(2);
-
-/*
-*
-**
-***
-****
-*****
-*/
