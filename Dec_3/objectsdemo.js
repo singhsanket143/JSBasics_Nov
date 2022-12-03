@@ -6,8 +6,9 @@ let y = {
 };
 // access any value using the key
 // NOTE: from key u can access values but not vice-a-versa
-console.log(x["name"]);
+console.log(x["name"]); 
 console.log(y.name);
+console.log("key not present", y.college); // in case key is not present, object will return undefined
 // Are objects mutable ?
 // Yes
 y.name = "Tanmay"; // update object
