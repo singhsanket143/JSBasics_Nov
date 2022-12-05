@@ -82,3 +82,15 @@ function print(element, idx) {
  */
 const result2 = newArr.map(print)
 console.log(result2);
+
+
+function customMapper(arr, func) {
+    let result = [];
+    for(let i = 0; i < arr.length; i++) {
+        result.push(func(arr[i], i));
+    }
+    return result;
+}
+
+const value = customMapper(newArr, print);
+console.log(value);
