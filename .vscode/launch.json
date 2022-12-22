@@ -6,6 +6,9 @@
     "configurations": [
 
 
+
+
+
     
         {
             "type": "node",
@@ -14,7 +17,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/Dec_19/fibonacci_recursive.js"
+            "program": "${workspaceFolder}/Dec_21/minCostFrogJump.js"
         }
     ]
 }
