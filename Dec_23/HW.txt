@@ -1,0 +1,7 @@
+Q: Given two values x and y, write a recursive function to calculate x raise to the power y (x^y);
+
+Q: Let's say you're standing on the top left of a grid of dimensions nxm.
+From every cell you can either move right or move down or move diagonally in the
+downright direction. Calculate total ways to go from top left to bottom right.
+
+(i, j) -> (i+1, j), (i, j+1), (i+1, j+1)
