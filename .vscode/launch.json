@@ -9,6 +9,7 @@
 
 
 
+
     
         {
             "type": "node",
@@ -17,7 +18,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/Dec_21/minCostFrogJump.js"
+            "program": "${workspaceFolder}/Jan_4/selectionsort.js"
         }
     ]
 }
